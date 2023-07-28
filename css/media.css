@@ -1,4 +1,36 @@
-@media only screen and (min-width: 320px) and (max-width: 767px){
+@media only screen and (max-width: 1199px){
+/* banner_start */
+    .banner_right {
+        width: 76%;
+    }
+    .banner_right ul {
+        width: 80%;
+    }
+    .contact {
+        width: 18%;
+    }
+    .banner_right li, .contact a {
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 18px;
+    }
+/* banner_end */
+
+/* buildApp_start */
+    .buildApp_bg {
+        display: none;
+    }
+/* buildApp_end */
+
+/* portfolio_start */
+    .portfolio_bg {
+        display: none;
+    }
+/* portfolio_end */
+}
+
+@media only screen and (max-width: 767px){
+/* banner_start */
     .logo {
         width: 94%;
     }
@@ -34,9 +66,9 @@
     .banner_content:nth-child(2) a{
         font-size: 14px;
     }
-    /* banner_end */
+/* banner_end */
 
-    /* service_start */
+/* service_start */
     .service_top h2{
         width: 98%;
         font-size: 22px;
@@ -63,9 +95,9 @@
         font-size: 12px;
         line-height: 18px;
     }
-    /* service_end */
+/* service_end */
 
-    /* buildApp_start */
+/* buildApp_start */
     .buildApp_top p {
         width: 98%;
         font-size: 12px;
@@ -104,9 +136,9 @@
         left: -38%;
         transform: translate(50%, 50%);
     }
-    /* buildApp_end */
+/* buildApp_end */
 
-    /* counting_start */
+/* counting_start */
     .counting_top{
         width: 90%;
     }
@@ -116,16 +148,16 @@
         line-height: 32px;
     }
     .counting_content {
-        width: 66%;
+        width: 34%;
         grid-template-columns: auto;
         padding-top: 20px;
     }
     .projects_inner{
         margin-bottom: 10px;
     }
-    /* counting_end */
+/* counting_end */
 
-    /* portfolio_start */
+/* portfolio_start */
     .portfolio_top {
         width: 86%;
     }
@@ -144,9 +176,9 @@
     .portfolio_bg{
         display: none;
     }
-    /* portfolio_end */
+/* portfolio_end */
 
-    /* feedback_start */
+/* feedback_start */
     .feedback_link a {
         font-size: 12px;
         margin-top: 10px;
@@ -167,9 +199,9 @@
     .feedback_right h4{
         margin-bottom: 0;
     }
-    /* feedback_end */
+/* feedback_end */
 
-    /* footer_start */
+/* footer_start */
     .footer_inner {
         width: 90%;
         grid-template-columns: auto auto;
@@ -219,9 +251,9 @@
     .footer_bottom h5, .footer_bottom p {
         font-size: 7px;
     }
-    /* footer_end */
+/* footer_end */
 
-    /* contactPopup_start */
+/* contactPopup_start */
     .contactUs_inner{
         width: 90%;
     }
@@ -247,5 +279,5 @@
     .contactUs{
         top: 1044%;
     }
-    /* contactPopup_end */
+/* contactPopup_end */
 }
