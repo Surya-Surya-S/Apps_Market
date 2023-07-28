@@ -1,11 +1,3 @@
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    
-}
-
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .logo {
         width: 94%;
@@ -87,6 +79,7 @@
         margin: 0 auto;
     }
     .buildApp_img {
+        width: 50%;
         margin: 0 auto;
     }
     .buildApp_content{
@@ -103,6 +96,13 @@
     }
     .buildApp_btn {
         margin-bottom: 10px;
+    }
+    .buildApp_bg {
+        width: 62%;
+        height: 88%;
+        top: 412%;  
+        left: -38%;
+        transform: translate(50%, 50%);
     }
     /* buildApp_end */
 
@@ -140,6 +140,9 @@
         width: 60%;
         grid-template-columns: auto auto;
         gap: 20px;
+    }
+    .portfolio_bg{
+        display: none;
     }
     /* portfolio_end */
 
@@ -226,7 +229,7 @@
         font-size: 14px;
     }
     .contactUs_left p{
-        width: 86%;
+        width: 80%;
         font-size: 10px;
         line-height: 20px;
         font-weight: 400;
@@ -242,7 +245,7 @@
         margin-left: -50px;
     }
     .contactUs{
-        top: 810%;
+        top: 1044%;
     }
     /* contactPopup_end */
 }

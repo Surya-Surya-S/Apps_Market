@@ -212,7 +212,7 @@ body {
 
 /* counting_start */
 .counting_top{
-    width: 75%;
+    width: 62%;
 }
 .counting_top h2{
     font-size: 36px;
@@ -230,6 +230,7 @@ body {
 .counting_content{
     width: 88%;
     grid-template-columns: 23% 23% 23% 23%;
+    padding-top: 24px;
 }
 .projects_inner.active, .projects_inner.active p{
     box-shadow: 4px 10px 45px -4px #eeeef4;
@@ -301,11 +302,12 @@ body {
 .feedback_link a{
     font-size: 14px;
     background-color: #f3f3f3;
-    padding: 8px 0 12px 0;
+    padding: 12px 0;
 }
 .feedback_bottom{
     grid-template-columns: 30% 70%;
     background-color: #efeffe;
+    box-shadow: 0px 4px 4px 0px #e5e5e5;
 }
 .feedback_left{
     background-color: #dbdbdb;
@@ -363,16 +365,16 @@ body {
 }
 form{
     width: 88%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;  
 }
 input{
     width: 86%;
-    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;  
     color: #7c7c7c;
     outline: none; 
 }
 ::placeholder{
+    font-size: 14px;
     padding-left: 10px;
 }
 .contactUs_right a{
@@ -385,7 +387,7 @@ input{
     margin-left: -82px;
 }
 .contactUs{
-    top: 594%;
+    top: 596%;
     left: 0;
     /* transform: translate(50%, 50%); */
     right: 0;
@@ -451,11 +453,11 @@ footer{
     font-weight: 500; 
     color: #8a8a8a;
 }
-.footer_para:nth-child(4){
-    width: 86%;
+.footer_para:nth-child(4), .footer_para:nth-child(2){
+    width: 100%;
 }
 .footer_para:nth-child(4) h4, .footer_para:nth-child(4) p{
-    margin-left: 24px;
+    margin-left: 26px;
 }
 .footer_bottom{
     width: 88%;
