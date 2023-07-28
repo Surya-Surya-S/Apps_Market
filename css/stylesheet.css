@@ -157,6 +157,7 @@ body {
 .buildApp_img {
     width: 36%;
     margin-left: 150px;
+    margin-top: 24px;
 }
 .buildApp_left, .buildApp_content {
     width: 50%;

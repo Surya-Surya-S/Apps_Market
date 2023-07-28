@@ -7,12 +7,15 @@
         width: 80%;
     }
     .contact {
-        width: 18%;
+        width: 20%;
     }
     .banner_right li, .contact a {
         font-size: 12px;
         font-weight: 400;
         margin-right: 18px;
+    }
+    #banner li::after{
+        bottom: 1px;
     }
 /* banner_end */
 
@@ -27,6 +30,12 @@
         display: none;
     }
 /* portfolio_end */
+
+/* contactPopup_start */
+.contactUs{
+    display: none;
+}
+/* contactPopup_end */
 }
 
 @media only screen and (max-width: 767px){
@@ -254,30 +263,8 @@
 /* footer_end */
 
 /* contactPopup_start */
-    .contactUs_inner{
-        width: 90%;
-    }
-    .contactUs_left h2{
-        font-size: 14px;
-    }
-    .contactUs_left p{
-        width: 80%;
-        font-size: 10px;
-        line-height: 20px;
-        font-weight: 400;
-    }
-    input{
-        width: 96%;
-        font-size: 8px;
-    }
-    .contactUs_right a {
-        font-size: 8px;
-        font-weight: 600;
-        padding: 5px 12px 7px;
-        margin-left: -50px;
-    }
     .contactUs{
-        top: 1044%;
+        display: none;
     }
 /* contactPopup_end */
 }
